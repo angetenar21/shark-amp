@@ -1,0 +1,43 @@
+{
+  "name": "shark-strike-v2",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "build-with-types": "run-p type-check \"build-only {@}\" --",
+    "preview": "vite preview",
+    "type-check": "vue-tsc --build --force"
+  },
+  "dependencies": {
+    "@aws-amplify/ui-vue": "^4.2.8",
+    "@vueuse/core": "^10.10.0",
+    "aws-amplify": "^6.2.0",
+    "pinia": "^2.1.7",
+    "sass": "^1.77.2",
+    "vue": "^3.4.21",
+    "vue-router": "^4.3.2"
+  },
+  "devDependencies": {
+    "@aws-amplify/backend": "^1.0.0",
+    "@aws-amplify/backend-cli": "^1.0.1",
+    "@tsconfig/node20": "^20.1.4",
+    "@types/node": "^20.12.5",
+    "@unhead/vue": "^1.9.11",
+    "@vitejs/plugin-vue": "^5.0.4",
+    "@vue/tsconfig": "^0.5.1",
+    "aws-cdk": "^2.137.0",
+    "aws-cdk-lib": "^2.137.0",
+    "constructs": "^10.3.0",
+    "esbuild": "^0.20.2",
+    "nes.css": "^2.3.0",
+    "npm-run-all2": "^6.1.2",
+    "tsx": "^4.7.2",
+    "typescript": "^5.4.5",
+    "unplugin-auto-import": "^0.17.6",
+    "unplugin-vue-components": "^0.27.0",
+    "vite": "^5.2.8",
+    "vue-tsc": "^2.0.11"
+  }
+}
